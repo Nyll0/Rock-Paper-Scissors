@@ -1,0 +1,34 @@
+#game-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#result {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#score {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.choice {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+}
+
+.choice:hover {
+  background-color: #2980b9;
+}
