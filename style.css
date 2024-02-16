@@ -24,11 +24,11 @@
   margin: 0 10px;
   cursor: pointer;
   border: none;
-  background-color: #3498db;
+  background-color: #ff4136;
   color: white;
   border-radius: 5px;
 }
 
 .choice:hover {
-  background-color: #2980b9;
+  background-color: #ff584f;
 }
