@@ -1,3 +1,4 @@
+
 #game-container {
   text-align: center;
   margin-top: 50px;
@@ -16,6 +17,7 @@
 #buttons {
   display: flex;
   justify-content: center;
+  
 }
 
 .choice {
@@ -24,11 +26,19 @@
   margin: 0 10px;
   cursor: pointer;
   border: none;
-  background-color: #ff4136;
+  background-color: gainsboro;
   color: white;
-  border-radius: 5px;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 0 7px #bbb;
 }
 
+.choice:active {
+  box-shadow: 0 3px #999;
+    transform: translateY(5px);
+}
 .choice:hover {
-  background-color: #ff584f;
+  /* a little darker shade of green */
+  background-color: rgb(192, 191, 191);
+  cursor: pointer;
 }
